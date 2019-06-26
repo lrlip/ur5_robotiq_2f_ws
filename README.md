@@ -4,6 +4,19 @@ Working Gazebo simulation of UR5 with Robotiq 2-finger gripper controlled with M
 This repository contains the packages ur5 and robotiq downloaded from https://github.com/utecrobotics/ur5.
 The robotiq_ur5 package contains the MoveIt setup to control the Gazebo simulation with MoveIt.
 
+## Installation
+Go to your workspace/src
+```bash
+git clone https://github.com/lrlip/ur5_robotiq_2f_ws.git
+cd ..
+catkin_make
+source devel/setup.bash
+```
+Instal the ros controllers
+```bash
+sudo apt-get install ros*controller*
+```
+
 ## Starting Gazebo Simulation
 
 The simulation is launched by:
