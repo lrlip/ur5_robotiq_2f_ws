@@ -12,7 +12,7 @@ cd ..
 catkin_make
 source devel/setup.bash
 ```
-Instal the ros controllers
+Install the ROS controllers
 ```bash
 sudo apt-get install ros*controller*
 ```
