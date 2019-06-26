@@ -27,10 +27,11 @@ or
 ```bash
 $ roslaunch ur5_gazebo ur5_setup.launch
 ```
-
-The simulation starts paused. Unpause to use the simulation by MoveIt.
+The Gazebo simulation starts in paused state.
+Before starting up MoveIt unpause the Gazebo simulation.
 
 ## Starting MoveIt control
+
 
 Launch the MoveIt control by:
 ```bash
